@@ -13,8 +13,12 @@ class AnswerButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
           backgroundColor: Color.fromARGB(215, 2, 132, 146),
           foregroundColor: Color.fromARGB(235, 255, 255, 255),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50))),
-      child: Text(answerText),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(50))),
+      child: Text(
+        answerText,
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
